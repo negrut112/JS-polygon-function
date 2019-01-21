@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Practice JavaScript by drawing</title>
+</head>
+<body>
+  <canvas id="myCanvas" height="300" width="450" style="border: 1px solid black"></canvas>
+  <script>
+    var canvas = document.getElementById('myCanvas');
+    var context = canvas.getContext('2d');
+
+    function polygon(sides, size, X, Y){
+    context.strokeStyle = "orange";
+    context.stroke();
+    context.beginPath();
+    context.moveTo (X +  size * Math.cos(0), Y +  size *  Math.sin(0));
+    for (var i = 1; i <= sides;i += 1) {
+    context.lineTo (X + size * Math.cos(i * 2 * Math.PI / sides), Y + size * Math.sin(i * 2 * Math.PI / sides));
+   }
+  }
+
+    function polygonf(sides1, size1, X1, Y1){
+    context.strokeStyle = "orange";
+    context.stroke();
+    context.beginPath();
+    context.moveTo (X1 +  size1 * Math.cos(0), Y1 +  size1 *  Math.sin(0));  
+    for (var i = 1; i <= sides1;i += 1) {
+    context.lineTo (X1 + size1 * Math.cos(i * 2 * Math.PI / sides1), Y1 + size1 * Math.sin(i * 2 * Math.PI / sides1));
+    context.fillStyle = "orange";
+    context.fill();
+   }
+  }
+
+console.log(polygon(6,40,225,150)); //center one
+console.log(polygon(6,40,225,75));
+console.log(polygon(6,40,225,225));
+console.log(polygon(6,40,160,112.5));
+console.log(polygon(6,40,290,112.5));
+console.log(polygon(6,40,160,187.5));
+console.log(polygonf(6,40,290,187.5)); //the filled one
+  </script>
+</body>
+</html>
