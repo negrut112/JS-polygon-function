@@ -16,7 +16,7 @@ context.beginPath();
 context.moveTo (X1 +  size1 * Math.cos(0), Y1 +  size1 *  Math.sin(0));  
 for (var i = 1; i &lt;= sides1;i += 1) {
 context.lineTo (X1 + size1 * Math.cos(i * 2 * Math.PI / sides1), Y1 + size1 * Math.sin(i * 2 * Math.PI / sides1));
-context.fillStyle = &quot;orange&quot;; // The difference is &quot;fillStyle&quot; method.
+context.fillStyle = &quot;orange&quot;; // The difference is &quot;fillStyle&quot; method and the function name "polygonf".
 context.fill();
 </code></pre>
 <p> }<br>
