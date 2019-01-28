@@ -19,8 +19,8 @@ context.lineTo (X1 + size1 * Math.cos(i * 2 * Math.PI / sides1), Y1 + size1 * Ma
 context.fillStyle = &quot;orange&quot;; // The difference is &quot;fillStyle&quot; method.
 context.fill();
 </code></pre>
-<p> }<br>
-}</p>
+<p>};<br>
+};</p>
 <br>
 Here is what I console.log-ed <br>
 console.log(polygon(6,40,225,150)); //center one<br>
