@@ -1,6 +1,6 @@
 <h1><a id="JSpolygonfunction_0"></a>JS-polygon-function</h1>
 
-<p>I’ve used the HTML and JavaScript to draw a polygon using 4 parameters: the numbers of sides, size side and two for starting point wich is middle.</p>
+<p>I’ve used the HTML and JavaScript to draw a polygon using 4 parameters: sides number, side size and two for starting point wich is middle.</p>
 <p>You can acces the live preview on: <a href="https://negrut112.github.io/JS-polygon-function/">https://negrut112.github.io/JS-polygon-function/</a><br>
 <img src="https://i.imgur.com/R2H9piQ.jpg"><br>
 <b>HTML</b>
