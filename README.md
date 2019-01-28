@@ -22,6 +22,6 @@ context.fill();
 <p>}<br>
 }</p>
 <br>
-Here is what I log
+Here is what I console.log-ed <br>
 console.log(polygon(6,40,225,150)); //center one<br>
 console.log(polygonf(6,40,290,187.5)); //the filled one
