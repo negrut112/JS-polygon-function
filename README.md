@@ -2,7 +2,7 @@
 
 <p>I’ve used the HTML and JavaScript to draw a polygon using 4 parameters: the numbers of sides, size side and two for starting point wich is middle.</p>
 <p>You can acces the live preview on: <a href="https://negrut112.github.io/JS-polygon-function/">https://negrut112.github.io/JS-polygon-function/</a><br>
-&lt;img src=&quot;<a href="https://i.imgur.com/R2H9piQ.jpg">https://i.imgur.com/R2H9piQ.jpg</a>&quot;&gt;</p>
+<img href="https://i.imgur.com/R2H9piQ.jpg">https://i.imgur.com/R2H9piQ.jpg>
 <b>HTML</b>
 <p>I have used the HTML to define the area where I’m working defining the height, width and the border style:</p>
 <p>&lt;canvas id=“myCanvas” height=“310” width=“500” style=“border: 1px solid black”&gt;&lt;/canvas&gt;</p>
