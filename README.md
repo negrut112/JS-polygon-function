@@ -3,10 +3,14 @@
 <p>I’ve used the HTML and JavaScript to draw a polygon using 4 parameters: sides number, side size and two for starting point wich is middle.</p>
 <p>You can acces the live preview on: <a href="https://negrut112.github.io/JS-polygon-function/">https://negrut112.github.io/JS-polygon-function/</a><br>
 <img src="https://i.imgur.com/R2H9piQ.jpg"><br>
-<b>HTML</b>
+  
+## HTML
+
 <p>I have used the HTML to define the area where I’m working defining the height, width and the border style:</p>
 <p>&lt;canvas id=“myCanvas” height=“310” width=“500” style=“border: 1px solid black”&gt;&lt;/canvas&gt;</p>
-<b>JavaScript</b>
+
+## JavaScript
+
 <p>As you can see we have 7 polygons, I made a function for the unfilled ones and a separate one for the filled one. then I displayed them using console.log(); according to my needs.<br>
 I will show you the filled function and what’s different from the other one below:</p>
 <pre><code>function polygonf(sides1, size1, X1, Y1){
